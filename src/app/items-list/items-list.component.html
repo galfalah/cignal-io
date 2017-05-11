@@ -3,7 +3,6 @@
   <ul *ngFor="let item of itemsList; let i = index; trackBy: trackByFn">
   <span>
       <item [itemData]="item"></item>
-      {{item.name}}
   </span>
 </ul>
 </div>
